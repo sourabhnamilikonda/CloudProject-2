@@ -1,6 +1,6 @@
-Project Name: MEDIWORLD 
+**Project Name:** MEDIWORLD 
 
-Created By: 
+**Created By:** 
 
 Sourabh Namilikonda
 
@@ -10,15 +10,15 @@ Pratik Dhumal
 
 Avleen Singh Khanuja
 
-UNIVERSITY: SAN JOSE STATE UNIVERSITY, San Jose, CA
+**UNIVERSITY:** http://www.sjsu.edu/
 
-COURSE: CMPE 281- Cloud Technologies
+**COURSE:** CMPE 281- Cloud Technologies
 
-Guided By: Prof. Sanjay Garje
+**Guided By:** Prof. Sanjay Garje
 
-ISA- Divyankita Urs
+**ISA-** Divyankita Urs
 
-LinkedIn: 
+**LinkedIn:** 
 
 Sourabh Namilikonda: https://www.linkedin.com/in/sourabh-namilikonda-255b226a/
 
@@ -29,15 +29,15 @@ Pratik Dhumal: https://www.linkedin.com/in/pratik-dhumal-2937aa72/
 Avleen Singh Khanuja: https://www.linkedin.com/in/avleen-singh-khanuja-3ab637128/
 
 
-Project problem statement
+**Project problem statement**
 
 Large scale hospitals have the necessary IT infrastructure and resources to have a considerable online presence, but individual doctors and clinics don’t have the expertise or investments for the same. The requirement is of a central portal where small scale doctors and patients can interact with equal facilities. Our application contains general as well as user specific customized information distribution in the Healthcare and Medical domain. We wish to build a repository of terms, procedures, organizations, names, definitions etc. to mine and provide relevant details to a user. Our aim is to simplify and provide accurate information which might be easier for a layman to understand.
 
-Project solution
+**Project solution**
 
 Using various AWS services and Google cloud platform we have developed a 3-tier web application. We are using Chatbot like functionality where user will be able to resolve his queries in a fast and easy manner. Implementing image recognition will help user save their time by directly scanning an image and then getting the required text present in the image instead of typing long set of words. Patient will be able to upload their reports as and when they want. These reports will be available to them globally and at any given instance of time. Feature such as SMS is also implemented as a part of the project.
 
-Features:
+**Features:**
 
 1.	Register and login the user using registration form and login credentials. The user information will be stored in AWS RDS.
 2.	Upload, download and delete reports via portal. To perform these actions we are making use of AWS S3. We have configured life cycle policy, replication policy and transfer acceleration policy along with limited access.
@@ -48,8 +48,60 @@ Features:
 7.	Content Search is implemented using Wikipedia and YouTube API to get all information from different location at one place.
 8.	Set reminders functionality is implemented using AWS cloudWatch and SNS. User can set reminders at specific time interval.
  
+**Architecture Diagram:**
 
-Pre Requisite Configurations:
+![image](https://user-images.githubusercontent.com/31361769/34243026-a77743e6-e5d3-11e7-85cc-4e5637f8310c.png)
+
+**Demo Screenshots:**
+
+•	_Home Page_
+
+![image](https://user-images.githubusercontent.com/31361769/34243162-667e9884-e5d4-11e7-90a8-6c1b719cf133.png)
+
+•	_Login_
+
+![image](https://user-images.githubusercontent.com/31361769/34243193-8042fa80-e5d4-11e7-9578-bfb7890b1ad2.png)
+
+•	_Signup_
+
+![image](https://user-images.githubusercontent.com/31361769/34243214-92ddb4dc-e5d4-11e7-818f-2503498da319.png)
+
+•	_Upload Reports_
+
+![image](https://user-images.githubusercontent.com/31361769/34243231-a3473924-e5d4-11e7-83ac-a7afe99bc882.png)
+
+•	_List Reports_
+
+![image](https://user-images.githubusercontent.com/31361769/34243249-b405c730-e5d4-11e7-8f3d-8ee76cc029b5.png)
+
+
+•	_MediBot_
+
+![image](https://user-images.githubusercontent.com/31361769/34243261-c0a4c7d4-e5d4-11e7-8fba-2c003082bc91.png)
+
+
+•	_Search Content_
+
+![image](https://user-images.githubusercontent.com/31361769/34243267-ce003d28-e5d4-11e7-90c3-c4aebb6a842b.png)
+
+
+•	_Scheduled Appointments_
+
+![image](https://user-images.githubusercontent.com/31361769/34243279-dcb03990-e5d4-11e7-8f51-b0c24e44bd45.png)
+
+
+•	_Set Reminders_
+
+![image](https://user-images.githubusercontent.com/31361769/34243296-eea32860-e5d4-11e7-8a69-7bddabba44e4.png)
+
+
+•	_View Reminders_
+
+![image](https://user-images.githubusercontent.com/31361769/34243313-fc64b810-e5d4-11e7-8895-eba0feb53d25.png)
+
+
+
+**Pre Requisite Configurations:**
 
 Configure and setup the following Services of Amazon AWS by creating an account at https://aws.amazon.com/ and then setting up:
 
@@ -72,7 +124,7 @@ Configure and setup the following Services of Amazon AWS by creating an account 
 17.	Amazon AWS Polly
 18.	Google Vision API
 
-List of Software Required to run the Application locally:
+**List of Software Required to run the Application locally:**
 
 1. Java 1.7 (or higher) [JDK & JRE]
 2. Netbeans IDE 8.2
@@ -83,17 +135,89 @@ List of Software Required to run the Application locally:
 7. AWS SDK for Java version 1.11.215
 
 
-Quick Steps:
+**Quick Steps:**
 
 •	Install JAVA and set Environment Variables required and also install the JAR file for JDBC Connector.
+
 •	Install MySQL Server and then install MySQL Workbench. 
+
 •	Install Apache Maven and set it’s PATH.
+
 •	Install NetBeans IDE and create a new Maven Web Project thereby, implementing the JSP Pages, JAVA Classes and Servlets in the same and testing the code to resolve bugs.
+
 •	Create connection with JDBC Driver by configuring Access Credentials for Admin Properties which you’ll be entering while installing MySQL Workbench. 
+
 •	In MySql Workbench, create a new connection at localhost and port 3306 and create the required database and tables by running the SQL queries.
+
 •	This creates a JDBC and SQL connection with localhost.
+
 •	Install the Required Maven dependencies and download them.
+
 •	Download, clean and build the code in Netbeans IDE and run it.
+
+•	In case you want to deploy the code on the any other Web Server, you will need a WAR file to do so for which in the Windows Command Line, go to the folder where the project resides and run the following two commands one after the other:
+1)	mvn compile
+2)	mvn package
+
+•	This creates the WAR file which can be deployed on any Web Server.
+
+
+ 
+
+**Pre Requisite Configurations:**
+
+Configure and setup the following Services of Amazon AWS by creating an account at https://aws.amazon.com/ and then setting up:
+
+1.	Amazon AWS Elastic Beanstalk
+2.	Amazon AWS S3
+3.	Amazon AWS S3 Transfer Acceleration
+4.	Amazon AWS CloudFront
+5.	Amazon AWS IAM 
+6.	Amazon AWS EC2
+7.	Amazon AWS Route 53
+8.	Amazon AWS RDS
+9.	Amazon AWS ELB
+10.	Amazon AWS Auto Scaling Groups
+11.	Amazon AWS SNS
+12.	Amazon AWS Lambda
+13.	Amazon AWS CloudWatch
+14.	Amazon AWS SES
+15.	Google API.AI
+16.	Amazon AWS DynamoDB
+17.	Amazon AWS Polly
+18.	Google Vision API
+
+**List of Software Required to run the Application locally:**
+
+1. Java 1.7 (or higher) [JDK & JRE]
+2. Netbeans IDE 8.2
+3. MySQL Server 5.6
+4. MySQL Workbench 6.2
+5. Apache Maven 3.5.0
+6. Any Browser(Google Chrome or Mozilla Firefox Preferred)
+7. AWS SDK for Java version 1.11.215
+
+
+**Quick Steps:**
+
+•	Install JAVA and set Environment Variables required and also install the JAR file for JDBC Connector.
+
+•	Install MySQL Server and then install MySQL Workbench. 
+
+•	Install Apache Maven and set it’s PATH.
+
+•	Install NetBeans IDE and create a new Maven Web Project thereby, implementing the JSP Pages, JAVA Classes and Servlets in the same and testing the code to resolve bugs.
+
+•	Create connection with JDBC Driver by configuring Access Credentials for Admin Properties which you’ll be entering while installing MySQL Workbench. 
+
+•	In MySql Workbench, create a new connection at localhost and port 3306 and create the required database and tables by running the SQL queries.
+
+•	This creates a JDBC and SQL connection with localhost.
+
+•	Install the Required Maven dependencies and download them.
+
+•	Download, clean and build the code in Netbeans IDE and run it.
+
 •	In case you want to deploy the code on the any other Web Server, you will need a WAR file to do so for which in the Windows Command Line, go to the folder where the project resides and run the following two commands one after the other:
 1)	mvn compile
 2)	mvn package
