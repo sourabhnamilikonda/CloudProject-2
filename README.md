@@ -1,8 +1,13 @@
 Project Name: MEDIWORLD 
+
 Created By: 
+
 Sourabh Namilikonda
+
 Hrishikesh Rendalkar
+
 Pratik Dhumal
+
 Avleen Singh Khanuja
 
 UNIVERSITY: SAN JOSE STATE UNIVERSITY, San Jose, CA
