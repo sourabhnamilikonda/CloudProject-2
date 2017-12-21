@@ -40,11 +40,14 @@ Using various AWS services and Google cloud platform we have developed a 3-tier 
 **Features:**
 
 1.	Register and login the user using registration form and login credentials. The user information will be stored in AWS RDS.
-2.	Upload, download and delete reports via portal. To perform these actions we are making use of AWS S3. We have configured life cycle policy, replication policy and transfer acceleration policy along with limited access.
+2.	Upload, download and delete reports via portal. To perform these actions we are making use of AWS S3. We have configured life 
+   cycle policy, replication policy and transfer acceleration policy along with limited access.
 3.	We have implemented Chatbot using API.AI (dialog flow), AWS Lambda, API gateway, DynamoDB and SES
-4.	We have implemented AWS Polly for notifications of different actions performed by the user such as after login a welcome message will be audible. We have also implemented this functionality when the user uploads, downloads and deletes the report.
+4.	We have implemented AWS Polly for notifications of different actions performed by the user such as after login a welcome  
+   message will be audible. We have also implemented this functionality when the user uploads, downloads and deletes the report.
 5.	User can view scheduled appointment from the portal. To achieve this we have used AWS DynamoDB.
-6.	Image Recognition is implemented using Google vision API. Here text written in the image will be retrieved and search functionality will be executed against the retrieved text.
+6.	Image Recognition is implemented using Google vision API. Here text written in the image will be retrieved and search 
+   functionality will be executed against the retrieved text.
 7.	Content Search is implemented using Wikipedia and YouTube API to get all information from different location at one place.
 8.	Set reminders functionality is implemented using AWS cloudWatch and SNS. User can set reminders at specific time interval.
  
