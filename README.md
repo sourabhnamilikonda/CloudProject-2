@@ -108,24 +108,24 @@ Using various AWS services and Google cloud platform we have developed a 3-tier 
 
 Configure and setup the following Services of Amazon AWS by creating an account at https://aws.amazon.com/ and then setting up:
 
-1.	Amazon AWS Elastic Beanstalk
-2.	Amazon AWS S3
-3.	Amazon AWS S3 Transfer Acceleration
-4.	Amazon AWS CloudFront
-5.	Amazon AWS IAM 
-6.	Amazon AWS EC2
-7.	Amazon AWS Route 53
-8.	Amazon AWS RDS
-9.	Amazon AWS ELB
-10.	Amazon AWS Auto Scaling Groups
-11.	Amazon AWS SNS
-12.	Amazon AWS Lambda
-13.	Amazon AWS CloudWatch
-14.	Amazon AWS SES
-15.	Google API.AI
-16.	Amazon AWS DynamoDB
-17.	Amazon AWS Polly
-18.	Google Vision API
+1.	 Amazon AWS Elastic Beanstalk
+2.	 Amazon AWS S3
+3.	 Amazon AWS S3 Transfer Acceleration
+4.	 Amazon AWS CloudFront
+5.	 Amazon AWS IAM 
+6.	 Amazon AWS EC2
+7.	 Amazon AWS Route 53
+8.	 Amazon AWS RDS
+9.	 Amazon AWS ELB
+10. Amazon AWS Auto Scaling Groups
+11. Amazon AWS SNS
+12. Amazon AWS Lambda
+13. Amazon AWS CloudWatch
+14. Amazon AWS SES
+15. Google API.AI
+16. Amazon AWS DynamoDB
+17. Amazon AWS Polly
+18. Google Vision API
 
 **List of Software Required to run the Application locally:**
 
@@ -146,74 +146,14 @@ Configure and setup the following Services of Amazon AWS by creating an account 
 
 •	Install Apache Maven and set it’s PATH.
 
-•	Install NetBeans IDE and create a new Maven Web Project thereby, implementing the JSP Pages, JAVA Classes and Servlets in the same and testing the code to resolve bugs.
+•	Install NetBeans IDE and create a new Maven Web Project thereby, implementing the JSP Pages, JAVA Classes and Servlets in the 
+   same and testing the code to resolve bugs.
 
-•	Create connection with JDBC Driver by configuring Access Credentials for Admin Properties which you’ll be entering while installing MySQL Workbench. 
+•	Create connection with JDBC Driver by configuring Access Credentials for Admin Properties which you’ll be entering while 
+   installing MySQL Workbench. 
 
-•	In MySql Workbench, create a new connection at localhost and port 3306 and create the required database and tables by running the SQL queries.
-
-•	This creates a JDBC and SQL connection with localhost.
-
-•	Install the Required Maven dependencies and download them.
-
-•	Download, clean and build the code in Netbeans IDE and run it.
-
-•	In case you want to deploy the code on the any other Web Server, you will need a WAR file to do so for which in the Windows Command Line, go to the folder where the project resides and run the following two commands one after the other:
-1)	mvn compile
-2)	mvn package
-
-•	This creates the WAR file which can be deployed on any Web Server.
-
-
- 
-
-**Pre Requisite Configurations:**
-
-Configure and setup the following Services of Amazon AWS by creating an account at https://aws.amazon.com/ and then setting up:
-
-1.	Amazon AWS Elastic Beanstalk
-2.	Amazon AWS S3
-3.	Amazon AWS S3 Transfer Acceleration
-4.	Amazon AWS CloudFront
-5.	Amazon AWS IAM 
-6.	Amazon AWS EC2
-7.	Amazon AWS Route 53
-8.	Amazon AWS RDS
-9.	Amazon AWS ELB
-10.	Amazon AWS Auto Scaling Groups
-11.	Amazon AWS SNS
-12.	Amazon AWS Lambda
-13.	Amazon AWS CloudWatch
-14.	Amazon AWS SES
-15.	Google API.AI
-16.	Amazon AWS DynamoDB
-17.	Amazon AWS Polly
-18.	Google Vision API
-
-**List of Software Required to run the Application locally:**
-
-1. Java 1.7 (or higher) [JDK & JRE]
-2. Netbeans IDE 8.2
-3. MySQL Server 5.6
-4. MySQL Workbench 6.2
-5. Apache Maven 3.5.0
-6. Any Browser(Google Chrome or Mozilla Firefox Preferred)
-7. AWS SDK for Java version 1.11.215
-
-
-**Quick Steps:**
-
-•	Install JAVA and set Environment Variables required and also install the JAR file for JDBC Connector.
-
-•	Install MySQL Server and then install MySQL Workbench. 
-
-•	Install Apache Maven and set it’s PATH.
-
-•	Install NetBeans IDE and create a new Maven Web Project thereby, implementing the JSP Pages, JAVA Classes and Servlets in the same and testing the code to resolve bugs.
-
-•	Create connection with JDBC Driver by configuring Access Credentials for Admin Properties which you’ll be entering while installing MySQL Workbench. 
-
-•	In MySql Workbench, create a new connection at localhost and port 3306 and create the required database and tables by running the SQL queries.
+•	In MySql Workbench, create a new connection at localhost and port 3306 and create the required database and tables by running 
+   the SQL queries.
 
 •	This creates a JDBC and SQL connection with localhost.
 
@@ -221,10 +161,14 @@ Configure and setup the following Services of Amazon AWS by creating an account 
 
 •	Download, clean and build the code in Netbeans IDE and run it.
 
-•	In case you want to deploy the code on the any other Web Server, you will need a WAR file to do so for which in the Windows Command Line, go to the folder where the project resides and run the following two commands one after the other:
-1)	mvn compile
-2)	mvn package
+•	In case you want to deploy the code on the any other Web Server, you will need a WAR file to do so for which in the Windows 
+   Command Line, go to the folder where the project resides and run the following two commands one after the other:
+   1)	mvn compile
+   2)	mvn package
 
 •	This creates the WAR file which can be deployed on any Web Server.
+
+
+
 
 
