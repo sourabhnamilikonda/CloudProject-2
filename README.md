@@ -10,8 +10,11 @@ UNIVERSITY: SAN JOSE STATE UNIVERSITY, San Jose, CA
 COURSE: CMPE 281- Cloud Technologies
 
 Guided By: Prof. Sanjay Garje
+
 ISA- Divyankita Urs
+
 LinkedIn: 
+
 Sourabh Namilikonda: https://www.linkedin.com/in/sourabh-namilikonda-255b226a/
 Hrishikesh Rendalkar: https://www.linkedin.com/in/hrishikesh-rendalkar-5a6b17152/
 Pratik Dhumal: https://www.linkedin.com/in/pratik-dhumal-2937aa72/
