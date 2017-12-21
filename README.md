@@ -16,20 +16,22 @@ ISA- Divyankita Urs
 LinkedIn: 
 
 Sourabh Namilikonda: https://www.linkedin.com/in/sourabh-namilikonda-255b226a/
+
 Hrishikesh Rendalkar: https://www.linkedin.com/in/hrishikesh-rendalkar-5a6b17152/
+
 Pratik Dhumal: https://www.linkedin.com/in/pratik-dhumal-2937aa72/
+
 Avleen Singh Khanuja: https://www.linkedin.com/in/avleen-singh-khanuja-3ab637128/
 
 
-
-
-
-
-
 Project problem statement
+
 Large scale hospitals have the necessary IT infrastructure and resources to have a considerable online presence, but individual doctors and clinics don’t have the expertise or investments for the same. The requirement is of a central portal where small scale doctors and patients can interact with equal facilities. Our application contains general as well as user specific customized information distribution in the Healthcare and Medical domain. We wish to build a repository of terms, procedures, organizations, names, definitions etc. to mine and provide relevant details to a user. Our aim is to simplify and provide accurate information which might be easier for a layman to understand.
+
 Project solution
+
 Using various AWS services and Google cloud platform we have developed a 3-tier web application. We are using Chatbot like functionality where user will be able to resolve his queries in a fast and easy manner. Implementing image recognition will help user save their time by directly scanning an image and then getting the required text present in the image instead of typing long set of words. Patient will be able to upload their reports as and when they want. These reports will be available to them globally and at any given instance of time. Feature such as SMS is also implemented as a part of the project.
+
 Features:
 
 1.	Register and login the user using registration form and login credentials. The user information will be stored in AWS RDS.
@@ -43,6 +45,7 @@ Features:
  
 
 Pre Requisite Configurations:
+
 Configure and setup the following Services of Amazon AWS by creating an account at https://aws.amazon.com/ and then setting up:
 
 1.	Amazon AWS Elastic Beanstalk
@@ -65,6 +68,7 @@ Configure and setup the following Services of Amazon AWS by creating an account 
 18.	Google Vision API
 
 List of Software Required to run the Application locally:
+
 1. Java 1.7 (or higher) [JDK & JRE]
 2. Netbeans IDE 8.2
 3. MySQL Server 5.6
@@ -75,6 +79,7 @@ List of Software Required to run the Application locally:
 
 
 Quick Steps:
+
 •	Install JAVA and set Environment Variables required and also install the JAR file for JDBC Connector.
 •	Install MySQL Server and then install MySQL Workbench. 
 •	Install Apache Maven and set it’s PATH.
