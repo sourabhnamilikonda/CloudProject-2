@@ -138,9 +138,7 @@ Configure and setup the following Services of Amazon AWS by creating an account 
 **Quick Steps:**
 
 •	Install JAVA and set Environment Variables required and also install the JAR file for JDBC Connector.
-
 •	Install MySQL Server and then install MySQL Workbench. 
-
 •	Install Apache Maven and set it’s PATH.
 
 •	Install NetBeans IDE and create a new Maven Web Project thereby, implementing the JSP Pages, JAVA Classes and Servlets in the same and testing the code to resolve bugs.
